@@ -12,4 +12,6 @@
 @interface SuperSqlite : NSObject <RCTBridgeModule>
 #endif
 
+@property(nonatomic, assign) BOOL setBridgeOnMainQueue;
+
 @end
